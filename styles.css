@@ -1,0 +1,31 @@
+nav {
+    background-color: rgb(60, 255, 0);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 40;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    margin-right: 10px; /* Adiciona espaçamento entre os itens */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove a margem direita do último item */
+}
+
+nav ul li a {
+    display: block;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    padding: 90px 90px; /* Aumenta o preenchimento vertical */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
